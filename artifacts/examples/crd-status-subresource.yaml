@@ -35,6 +35,7 @@ spec:
       subresources:
         # enables the status subresource
         status: {}
+  # CRD does no need to reveal what fields the CR has
   names:
     kind: Foo
     plural: foos
